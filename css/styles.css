@@ -1,0 +1,34 @@
+.celebrity {
+  display: none
+}
+
+.keanu {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/8-1637611978.jpg?resize=480:*);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tilda {
+  background-image: url(https://variety.com/wp-content/uploads/2021/06/Tilda-Swinton-Variety-Cover-Story-4-16x9-1.jpg?w=1024);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.ingrid {
+  background-image: url(https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTE1ODA0OTcxNTU0MDgwMjY5/ingrid-bergman-9208952-1-402.jpg);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.anya {
+  background-image: url(https://www.gannett-cdn.com/presto/2020/12/16/NTEG/50ec0814-17af-43ff-9ee7-5b372888df63-1217actress1.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
