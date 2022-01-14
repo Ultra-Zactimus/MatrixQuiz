@@ -3,39 +3,63 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
   <script src="js/jquery-3.6.0.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Celebrity Dating Quiz</title>
+  <title>Enter the Matrix</title>
 </head>
 <body>
+  <div id="pill_check">
+    <form id="pill">
+      <div class="form-group">
+        <label for="pill">Red Pill or Blue Pill?</label>
+        <select class="form-control" id="pill">
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+        </select>          
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn">Submit!</button>
+      </div>
+    </form>
+  </div>
+  <div id="blue-pill">
+    <div class="flex">
+      <p>Go back to your fake reality</p>
+    </div>
+  </div>
   <div class="container">
-    <h1>Which Celebrity Should You Date???</h1>
+    <h1>Which Matrix character are you?</h1>
     <h2>Please Choose from the available options:</h2>
     <form id="date-form">
       <div class="form-group">
-        <label for="day-night">Do you like day or night more??</label>
-        <select class="form-control" id="day-night">
+        <label for="drink">What type of drink do you like?</label>
+        <select class="form-control" id="drink">
           <option value="select">Select</option>
-          <option value="day">Day</option>
-          <option value="night">Night</option>
+          <option value="wine">Wine</option>
+          <option value="coffee">Coffee</option>
+          <option value="vodka">Vodka</option>
         </select>        
       </div>
       <div class="form-group">
-        <label for="city-town">Would you prefer to live in a city or a town??</label>
-        <select class="form-control" id="city-town">
+        <label for="language">What language do you like the most?</label>
+        <select class="form-control" id="language">
           <option value="select">Select</option>
-          <option value="city">City</option>
-          <option value="town">Town</option>
+          <option value="english">English</option>
+          <option value="french">French</option>
+          <option value="russian">Russian</option>
         </select>        
       </div>
       <div class="form-group">
-        <button type="submit" class="btn btn-success">Submit!</button>
+        <button type="submit" class="btn">Submit!</button>
       </div>
     </form>
     <p id="pick">Please, pick something!</p>
-    <div class="celebrity">
+    <div class="character">
       <h2>Guess what??? You matched with:</h2>
-      <div id="celeb">
+      <div id="char">
       </div>
     </div>
   </div>

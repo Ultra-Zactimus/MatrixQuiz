@@ -1,4 +1,36 @@
-.celebrity {
+body {
+	font-family: "Press Start 2P", monospace;
+  color: #33ff33;
+  background-color: #242424;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+h2 {
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+#pill_check, .flex{
+  position:fixed;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/hands.jpg');
+  background-size: contain;
+  z-index: 1;
+}
+
+#blue-pill {
+  display:none;
+}
+
+.character {
   display: none
 }
 
@@ -6,33 +38,80 @@
   display: none;
 }
 
-.keanu {
-  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/8-1637611978.jpg?resize=480:*);
+.neo {
+  background-image: url(../img/neo.jpg);
   width: 300px;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.tilda {
-  background-image: url(https://variety.com/wp-content/uploads/2021/06/Tilda-Swinton-Variety-Cover-Story-4-16x9-1.jpg?w=1024);
+.trinity {
+  background-image: url(../img/trinity.jpg);
   width: 300px;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.ingrid {
-  background-image: url(https://www.biography.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTE1ODA0OTcxNTU0MDgwMjY5/ingrid-bergman-9208952-1-402.jpg);
+.morpheus {
+  background-image: url(../img/morpheus.jpg);
   width: 300px;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.anya {
-  background-image: url(https://www.gannett-cdn.com/presto/2020/12/16/NTEG/50ec0814-17af-43ff-9ee7-5b372888df63-1217actress1.jpg);width: 300px;
+.smith {
+  background-image: url(../img/smith.jpg);width: 300px;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.oracle {
+  background-image: url(../img/oracle.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.architect {
+  background-image: url(../img/architect.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.tank {
+  background-image: url(../img/tank.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.switch {
+  background-image: url(../img/switch.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.lock {
+  background-image: url(../img/lock.jpg);width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  background-color: #242424;
+  color: #33ff33; 
+  border: #33ff33 1px solid;
+}
+
+.btn:hover {
+  background-color: #33ff33;
+  color: #242424; 
+  border: #242424 1px solid;
 }
